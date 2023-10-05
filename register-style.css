@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(BG.jpg);
+    background-size: cover;
+}
+
+.back {
+    border-bottom: 2px solid;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.back a {
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS untuk elemen utama */
+.register-container {
+    text-align: center;
+    padding: 100px;
+}
+
+/* CSS untuk elemen dengan border tengah */
+.center-border {
+    border: 5px solid rgba(110, 110, 110, 1); /* Warna dan ketebalan border sesuaikan dengan preferensi Anda */
+    padding: 5px; /* Untuk memberikan jarak antara border dan kontennya */
+    display: inline-block;
+    width: 25%; /* Ukuran border sekitar 25% dari lebar layar */
+    background-color: rgba(230, 230, 230, 0.3); /* Latar belakang hitam dengan tingkat transparansi 50% (burem) */
+    color: white; /* Warna teks diubah menjadi putih agar lebih kontras */
+}
+/* Gaya untuk teks Login Akun */
+.register-login,
+.register-google,
+.register-facebook,
+.register-x {
+    margin: 20px ;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.forget-account a {
+    color: white;
+}

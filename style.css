@@ -1,0 +1,154 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-content {
+    border: 1px solid;
+    padding-bottom: 100px;
+    background-image: url('BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.2); /* Nilai alpha yang lebih rendah untuk mengurangi transparansi (0.5 sebagai contoh) */   
+}
+
+.content {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content-2 p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.register {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0px;
+    font-style: italic;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.register a {
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.about {
+    display: flex;
+    padding: 0px;
+}
+
+.left-about {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-about p {
+    text-align: right;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left-about h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.right-about {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-about img{
+    max-width: 50%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content2 {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content2 li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}

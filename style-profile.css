@@ -1,0 +1,150 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.main-content {
+    border: 1px solid;
+    padding-bottom: 100px;
+    background-image: url('BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.2); /* Nilai alpha yang lebih rendah untuk mengurangi transparansi (0.5 sebagai contoh) */   
+}
+
+.content {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin: 0px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content-2 p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Center-align text and border within the container */
+.text-container {
+    text-align: center;
+    padding: 20px; /* Untuk memberikan ruang di sekitar teks */
+}
+
+/* Style the bordered text with a border at the bottom */
+.bordered-text {
+    display: inline-block; /* Agar border hanya memenuhi lebar teks */
+    border-bottom: 2px solid #000; /* Ubah warna dan lebar border sesuai kebutuhan */
+    padding-bottom: 10px; /* Untuk memberikan jarak antara teks dan border bawah */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.thercreator {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+/* Reset margin dan padding bawaan browser */
+.creator {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Untuk mengatur gambar di tengah secara horizontal */
+    align-items: center; /* Untuk mengatur gambar di tengah secara vertikal */
+}
+
+/* Style container for each team member */
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style images with circular border */
+.team-member img {
+    width: 150px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: 150px;
+    border-radius: 50%; /* Membuat border lingkaran */
+    border: 2px solid #000; /* Ubah warna dan lebar border sesuai kebutuhan */
+}
+
+/* Style member names */
+.team-member p {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content2 {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content2 li {
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
